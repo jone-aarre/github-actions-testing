@@ -1,4 +1,4 @@
-@description('The location into which your Azure resources should be deployed.')
+@description('The location into which your Azure resources should be deployed. Not used?')
 param location string = resourceGroup().location
 
 @description('Select the type of environment you want to provision. Allowed values are Production and Test.')
