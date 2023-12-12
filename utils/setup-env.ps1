@@ -1,7 +1,7 @@
 Connect-AzAccount
 
 $githubOrganizationName = 'jone-aarre'
-$githubRepositoryName = 'toy-website-test'
+$githubRepositoryName = 'github-actions-testing'
 
 $applicationRegistration = New-AzADApplication -DisplayName 'toy-website-test'
 New-AzADAppFederatedCredential `
